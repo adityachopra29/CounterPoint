@@ -18,7 +18,7 @@ app.get("/", async(req, res) => {
 app.post("/", async (req, res) => {
 
     var motion = req.body.Motion;
-    // console.log(motion)
+    console.log(motion)
     
     // this is the api call to youchatgpt 
     // this prints the output on console
